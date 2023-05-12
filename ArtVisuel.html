@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="./style.css">
+      <title>ArtIA Art Visuel</title>
+  </head>
+  <body>
+<!--Entete (Header)-->    
+    <!--Menu-->
+    <header class="container-fluid bg-gradup-ju">
+      <nav>
+        <ul class="nav nav-pills text-sm-center navbar">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link " href="./APropos.html">A Propos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./chatGPT.html">chatGPT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./ArtVisuel.html">Art Visuel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Musique.html">Musique</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./VSTs.html">VST</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Liens.html">Liens</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./FAQ.html">FAQ</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Logo -->
+    <div class="container-fluid bg-graddown-ju">
+          <img src="./Images/ArtIALogoGlow.png" class="img-fluid mx-auto d-block rounded-pill p-4" alt="Logo ASCII ArtIA">  
+    </div>
+<!--Titre de page (Art Visuel)-->
+        <h1 class="center">Art Visuel</h1>
+        <p class="center">Voici quelques images que j'ai généré avec Stable Diffusion, une I.A. qui se base sur du texte pour créer des images. La qualité des résultats peut évidamment varier et pour créer des images claires et dépourvues de défauts, faut savoir mieux parler a cette I.A., tout comme chatGPT.</p>
+<!--Article: Premier Essais-->
+    <!--Article Titre-->
+      <div class="container row margin-auto-ju">
+        <div class="row justify-content-md-center">
+
+          <div class="col col-sm-12 p-3">
+            <h1>Premiers essais
+            </h1>
+          </div>
+        </div>
+      </div>
+    <!--Article Texte/Caroussel-->
+      <div class="container-fluid row margin-auto-ju">
+          <div class="col-sm-6 bg-gradradout-ju text-light p-3 rounded-pill ">
+            <hr>
+            <p>Voici mes premiers essais sur stable diffusion avec le texte que je lui ai demandé...<br>
+              Un chat en armure médiévale avec un fusil laser, un extra-terrestre sur le gazon de la maison blanche et un ange sortant d'une poubelle en feu.
+            </p>
+            <hr>
+            </div>
+            <div id="CarousselArtVisuel1" class="carousel slide carousel-fade col-sm-6 bg-gradradin-ju text-light p-3 rounded-pill" data-bs-ride="carousel1">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#CarousselArtVisuel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#CarousselArtVisuel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#CarousselArtVisuel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./Images/ImgArtVisuel/SD_Armor_Cat_Laser_Gun.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Chat en armure médiévale avec un fusil laser</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./Images/ImgArtVisuel/SD_Alien_White_House.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Extra-Terrestre sur le gazon de la maison blanche</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./Images/ImgArtVisuel/SD_Angel_Dumpster_Fire.png" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Ange sortant d'une poubelle en feu</h5>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#CarousselArtVisuel1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#CarousselArtVisuel1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+      </div>
+    </div>
+<!--Article: Bon Appetit!-->
+    <!--Article Titre-->
+    <div class="container row margin-auto-ju">
+      <div class="row justify-content-md-center">
+
+        <div class="col col-sm-12 p-3">
+          <h1>Bon Appetit!
+          </h1>
+        </div>
+      </div>
+    </div>
+  <!--Article Texte/Caroussel-->
+  <div class="container-fluid row margin-auto-ju">
+    <div class="col-sm-6 bg-gradradout-ju text-light p-3 rounded-pill ">
+      <hr>
+      <p>Il est évident que je devrais me lancer dans la réstauration...<br> Un hamburger vert, un tête a tête avec un xénomorphe dans un restaurant français et un insecte-robot qui cuisine.
+      </p>
+      <hr>
+      </div>
+          <div id="CarousselArtVisuel2" class="carousel slide carousel-fade col-sm-6 bg-gradradin-ju text-light p-3 rounded-pill " data-bs-ride="carousel2">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#CarousselArtVisuel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#CarousselArtVisuel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#CarousselArtVisuel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Images/ImgArtVisuel/SD_Burger_Vert.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Hamburger Vert</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/ImgArtVisuel/SD_Xenomorph_French_Restaurant.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Un xénomorphe qui dine dans un restaurant français</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/ImgArtVisuel/SD_Insect_Robot_Meal.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Insecte robot qui cuisine</h5>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#CarousselArtVisuel2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#CarousselArtVisuel2" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+  </div>
+<!--Article: Animaux-->
+    <!--Article Titre-->
+    <div class="container row margin-auto-ju">
+      <div class="row justify-content-md-center">
+
+        <div class="col col-sm-12 p-3">
+          <h1>Nos amis les animaux
+          </h1>
+        </div>
+      </div>
+    </div>
+  <!--Article Texte/Caroussel-->
+    <div class="container-fluid row margin-auto-ju">
+        <div class="col-sm-6 bg-gradradout-ju text-light p-3 rounded-pill">
+          <hr>
+          <p>J'suis pas complètement certain que ça n'est pas de la cryptozoologie...<br> Un chat avec un fusil mitrailleur, un wombat avec un bâton de baseball et un homme-cochon a bicyclette.
+          </p>
+          <hr>
+          </div>
+          <div id="CarousselArtVisuel3" class="carousel slide carousel-fade col-sm-6 bg-gradradin-ju text-light p-3 rounded-pill " data-bs-ride="carousel3">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#CarousselArtVisuel3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#CarousselArtVisuel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#CarousselArtVisuel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Images/ImgArtVisuel/SD_Cat_Machinegun.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Chat avec un fusil mitrailleur.</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/ImgArtVisuel/SD_Woombat_Baseball.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Un wombat avec un bâton de baseball.</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/ImgArtVisuel/SD_Manpig_Bicycle.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Un homme-cochon a bicyclette</h5>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#CarousselArtVisuel3" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#CarousselArtVisuel3" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+  </div>
+<!--Pied de page (Footer)-->
+    <br><br><br>
+    <footer class="text-sm-center navbar fixed-bottom bg-gradup-ju copyright">
+      <hr>
+      (c) Julien Gagnon
+      <a href="./contact.html" class="">Nous contacter</a> |
+      <a href="./planDuSite.html" class="">Plan du site</a> 
+      <hr>
+    </footer>
+  </body>
+</html>

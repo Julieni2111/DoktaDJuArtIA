@@ -1,0 +1,105 @@
+/* Mise en forme du corps de base et des fonts web-safe pour le contenu */
+
+body {
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 35%, rgba(56,87,93,1) 100%);
+}
+
+h1 {
+    color: blanchedalmond;
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+h2 {
+    color: blanchedalmond;
+    font-size: 16pt;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+h5 {
+    font-size: 12pt;
+    color: blanchedalmond;
+    font-family: Arial ;  
+    font-weight: bold;
+    background-color: black; 
+}
+
+p {
+    font-size: 12pt;
+    color: blanchedalmond;
+    font-family: Arial
+}
+
+.label-ju {
+    font-size: 12pt;
+    color: blanchedalmond;
+    font-family: Arial
+}
+
+.center {
+    text-align: center;
+}
+
+li {
+    font-family: Arial;
+    font-size: 10pt;
+    font-weight: bolder;
+
+}
+
+.center-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+      }
+
+
+/* Arriere-plans degrades lineaire/radial (Gradient Backgrounds) */
+
+.bg-gradup-ju {
+    background: rgb(51,98,98);
+    background: linear-gradient(0deg, rgba(51,98,98,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.bg-graddown-ju {
+    background: rgb(51,98,98);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(51,98,98,1) 100%);
+}
+
+.bg-gradradout-ju {
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 35%, rgba(56,87,93,1) 100%);
+}
+
+.bg-gradradin-ju {
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(56,87,93,1) 0%, rgba(56,87,93,1) 35%, rgba(0,0,0,1) 100%);
+}
+.bg-gradradbutton-ju {
+    background: rgb(146,255,245);
+    background: radial-gradient(circle, rgba(146,255,245,1) 0%, rgba(100,173,255,1) 100%); 
+}
+
+/* Mise en forme */
+
+.navfixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+ 
+/* Mise en forme additionelle */
+
+.copyright {
+    color: blanchedalmond;
+    font-weight: bolder;
+}
+
+.margin-auto-ju {
+    margin: 0 auto;
+}
